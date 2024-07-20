@@ -2,9 +2,9 @@
   "name": "vellum-book",
   "version": "0.0.0",
   "scripts": {
-    "build": "eleventy",
+    "build": "npx @11ty/eleventy",
     "clean": "rimraf _site",
-    "start": "eleventy --serve --quiet",
+    "start": "npx @11ty/eleventy --serve --quiet",
     "predeploy": "npm run clean && npm run build && npm run test",
     "deploy": "gh-pages -d dist -b gh-pages -t",
     "test": "htmlhint _site/**/*.html && markdownlint *.md sections/** && stylelint 'assets/styles/**/*.css'"
