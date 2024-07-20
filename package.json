@@ -1,6 +1,6 @@
 {
   "name": "vellum-book",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "clean": "rimraf _site",
