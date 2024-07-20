@@ -1,0 +1,45 @@
+{
+  "name": "vellum-doc",
+  "version": "0.8.0",
+  "description": "A simple document web component for web publishing",
+  "main": "vellum-doc.js",
+  "module": "vellum-doc.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx && npx prettier . --check",
+    "lint:format": "npx prettier . --write",
+    "clean": "rm -rf docs vellum-doc.js vellum-doc.js.map",
+    "build": "npm run clean && npm run build:prod",
+    "build:prod": "npm run build:analyze && tsc && esbuild src/vellum-doc.ts --bundle --minify --sourcemap=external --outfile=vellum-doc.js",
+    "build:dev": "tsc && esbuild src/vellum-doc.ts --bundle --outfile=vellum-doc.js",
+    "build:watch": "tsc && esbuild src/vellum-doc.ts --bundle --watch --outfile=vellum-doc.js --servedir=./",
+    "build:analyze": "cem analyze --litelement",
+    "build:docs": "npm run build:dev && mkdir docs && cp vellum-doc.js index.html docs/",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "web-components",
+    "lit-element",
+    "typescript",
+    "lit",
+    "publishing",
+    "vellum"
+  ],
+  "author": "Ric Wood <ric@grislyeye.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@sindresorhus/slugify": "^2.2.1",
+    "lit": "^3.1.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.7.1",
+    "@typescript-eslint/parser": "^7.7.1",
+    "@custom-elements-manifest/analyzer": "^0.10.2",
+    "esbuild": "^0.21.5",
+    "lit-analyzer": "^2.0.3",
+    "prettier": "^3.3.2",
+    "rimraf": "^5.0.7",
+    "typescript": "~5.4.5"
+  },
+  "customElements": "custom-elements.json"
+}

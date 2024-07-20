@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+    <title>Book Title</title>
+
+    <link href="vendor/normalize.css/normalize.css" rel="stylesheet" />
+    <link href="vendor/magick.css/magick.css" rel="stylesheet" />
+    <link href="assets/styles/main.css" rel="stylesheet" />
+
+    <script type="module">
+      import './vendor/vellum-doc/vellum-doc.js'
+    </script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/@lit/index.js",
+          "lit/": "/vendor/@lit/"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+
+    <vellum-doc anchors>
+      <main>
+        <article id="document" class="content"><section>
+            <h1>Vellum Book</h1>
+<p>A template project for publishing rich web documents. Very much a work-in-progress at this time, use with caution.</p>
+<p><strong><a href="https://grislyeye.github.io/vellum-book/">Demo</a></strong> |
+<strong><a href="https://github.com/grislyeye/vellum-book/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement">Roadmap</a></strong></p>
+<p>Features:</p>
+<ul>
+<li>Write everything in plain markdown files</li>
+<li>Rich document view with <a href="https://github.com/grislyeye/vellum-doc"><code>&lt;vellum-doc&gt;</code></a></li>
+<li>Link previews with <a href="https://github.com/rg-wood/link-preview"><code>&lt;link-preview&gt;</code></a> (not working)</li>
+<li>Smartly converts links between markdown files into fragment links (e.g. <a href="#chapter-1">Chapter 1</a>)</li>
+<li>Beautifully themed with <a href="https://css.winterveil.net/">magick.css</a> by default</li>
+</ul>
+
+            </section><section>
+            <h2>Design Principles</h2>
+<ol>
+<li>Writers should only need write in plain markdown. Noodly HTML (like <code>&lt;link-preview&gt;</code> or <code>&lt;vellum-doc&gt;</code>) should be handled by 11ty.</li>
+</ol>
+
+            </section><section>
+            <h2>Chapter 1</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed plane dicit quod intellegit. Si mala non sunt, iacet omnis ratio Peripateticorum. Nec vero alia sunt quaerenda contra Carneadeam illam sententiam. Respondent extrema primis, media utrisque, omnia omnibus. Duo Reges: constructio interrete. Cur post Tarentum ad Archytam? <a href="http://loripsum.net/">Tamen a proposito, inquam, aberramus.</a> Videmus igitur ut conquiescere ne infantes quidem possint. <code>Utram tandem linguam nescio?</code> Tibi hoc incredibile, quod beatissimum. An dolor longissimus quisque miserrimus, voluptatem non optabiliorem diuturnitas facit? <em>Quid autem habent admirationis, cum prope accesseris?</em></p>
+
+            </section><section>
+            <h3>Section 1</h3>
+<p>At enim sequor utilitatem. Plane idem, inquit, et maxima quidem, qua fieri nulla maior potest. Quod cum accidisset ut alter alterum necopinato videremus, surrexit statim. Ita relinquet duas, de quibus etiam atque etiam consideret. <strong>Tamen a proposito, inquam, aberramus.</strong></p>
+<p>Cetera illa adhibebat, quibus demptis negat se Epicurus intellegere quid sit bonum. Quid est, quod ab ea absolvi et perfici debeat? Et ais, si una littera commota sit, fore tota ut labet disciplina. Videmus igitur ut conquiescere ne infantes quidem possint. Licet hic rursus ea commemores, quae optimis verbis ab Epicuro de laude amicitiae dicta sunt. Quod autem in homine praestantissimum atque optimum est, id deseruit. Equidem soleo etiam quod uno Graeci, si aliter non possum, idem pluribus verbis exponere.</p>
+
+            </section></article>
+      </main>
+
+      <footer>
+        <p>Book Title 0.0.0 &copy;  2024</p>
+        <p><a href="https://example.org">https://example.org</a></p>
+      </footer>
+    </vellum-doc>
+
+  </body>
+
+</html>
