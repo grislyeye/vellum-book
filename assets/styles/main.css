@@ -10,8 +10,8 @@ vellum-doc::part(index) {
 }
 
 article#document {
-  display:flex;
-  flex-wrap:wrap;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
