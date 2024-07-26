@@ -10,7 +10,7 @@
     "test": "htmlhint _site/**/*.html && markdownlint *.md sections/** && stylelint 'assets/styles/**/*.css'"
   },
   "dependencies": {
-    "vellum-doc": "^0.8.0"
+    "vellum-doc": "^0.9.0"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
