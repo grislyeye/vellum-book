@@ -5,7 +5,7 @@ tags: pages
 ---
 # Vellum Book
 
-A template project for publishing rich web documents. Very much a work-in-progress at this time, use with caution.
+A template project for publishing rich web documents using plain markdown. Very much a work-in-progress at this time, use with caution.
 
 **[Demo](https://grislyeye.github.io/vellum-book/)** |
 **[Roadmap](https://github.com/grislyeye/vellum-book/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)**
