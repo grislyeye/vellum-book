@@ -14,6 +14,6 @@ Features:
 
 - Write everything in plain markdown files
 - Rich document view with [`<vellum-doc>`](https://github.com/grislyeye/vellum-doc)
-- Link previews with [`<link-preview>`](https://github.com/rg-wood/link-preview) (not working)
+- Link previews with [`<link-preview>`](https://github.com/rg-wood/link-preview)
 - Smartly converts links between markdown files into fragment links (e.g. [Chapter 1](sections/chapter-1/chapter-1.md))
 - Beautifully themed with [magick.css](https://css.winterveil.net/) by default

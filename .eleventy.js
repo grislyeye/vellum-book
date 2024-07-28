@@ -1,7 +1,7 @@
 const project = require('./package.json');
 const replaceLink = require('markdown-it-replace-link');
 const path = require("path");
-// const linkPreviewPlugin = require("./lib/link-preview-md-plugin.js");
+const linkPreviewPlugin = require("./lib/link-preview-md-plugin.js");
 
 function byIndex(left, right) {
   const a = left.data.index ? Number.parseInt(left.data.index) : 0;
@@ -48,6 +48,6 @@ module.exports = function (eleventyConfig) {
           return link;
         }
       })
-      // .use(linkPreviewPlugin);
+      .use(linkPreviewPlugin);
   });
 };
