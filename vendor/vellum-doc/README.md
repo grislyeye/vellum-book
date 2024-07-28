@@ -1,15 +1,19 @@
-# \<vellum-doc>
+# \<vellum-doc> [![Test](https://github.com/grislyeye/vellum-doc/actions/workflows/test.yml/badge.svg)](https://github.com/grislyeye/vellum-doc/actions/workflows/test.yml)
 
-A custom element to turn plain HTML into rich documents, inspired by
-[Docsify](https://docsify.js.org). Features include:
-
-- Document index pane
-- Stow index pane in application drawer on mobile devices
-- Anchor links (optional)
+A custom element to turn plain HTML into rich documents. Inspired by
+[Docsify](https://docsify.js.org).
 
 **[Demo](https://grislyeye.github.io/vellum-doc/)** |
 **[Developer Guide](CONTRIBUTING.md)** |
 **[Roadmap](https://github.com/grislyeye/vellum-doc/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)**
+|
+**[Known Issues](https://github.com/grislyeye/vellum-doc/issues?q=is%3Aissue+is%3Aopen+label%3Abug)**
+
+Features include:
+
+- Document index pane
+- Stow index pane on mobile devices
+- Automatically generate anchor links (optional)
 
 ## Usage
 
@@ -18,7 +22,7 @@ Include the `<script>` in your markup:
 ```html
 <script
   type="module"
-  src="https://www.unpkg.com/vellum-doc@0.8.0/vellum-doc.js"></script>
+  src="https://www.unpkg.com/vellum-doc@0.9.0/vellum-doc.js"></script>
 ```
 
 Or, if you host the script as part of your project (recommended):
@@ -50,6 +54,14 @@ Example:
 </vellum-doc>
 ```
 
+Works best with smooth scrolling enabled:
+
+```css
+html {
+  scroll-behavior: smooth;
+}
+```
+
 ### Anchors
 
 Anchor links can be dynamically added to document headers using the `anchors`
@@ -75,13 +87,13 @@ Supports the following CSS variables:
 Supports the following
 [shadow parts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shadow_parts):
 
-| Shadow Part | Description                                                                                          |
-| ----------- | ---------------------------------------------------------------------------------------------------- |
-| `index`     | The index pane container. Can be used to set padding, style the index divider (`border-right`), etc. |
-| `index-h1`  | `h1` items in the index.                                                                             |
-| `index-h2`  | As above, but for `h1` items.                                                                        |
-| `index-h3`  | As above, but for `h3` items.                                                                        |
-| `index-h4`  | As above, but for `h4` items.                                                                        |
+| Part       | Description                                                                                          |
+| ---------- | ---------------------------------------------------------------------------------------------------- |
+| `index`    | The index pane container. Can be used to set padding, style the index divider (`border-right`), etc. |
+| `index-h1` | `h1` items in the index.                                                                             |
+| `index-h2` | As above, but for `h1` items.                                                                        |
+| `index-h3` | As above, but for `h3` items.                                                                        |
+| `index-h4` | As above, but for `h4` items.                                                                        |
 
 For example:
 

@@ -1,19 +1,20 @@
 {
   "name": "vellum-doc",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "A simple custom element for web publishing",
   "main": "vellum-doc.js",
   "module": "vellum-doc.js",
   "type": "module",
   "scripts": {
-    "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx && npx prettier . --check",
+    "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx && npx prettier . --check && npx stylelint src/**/*.css && lit-analyzer src",
     "lint:fix": "npx prettier . --write",
     "clean": "rm -rf docs vellum-doc.js vellum-doc.js.map",
     "build": "npm run clean && npm run build:prod",
-    "build:prod": "npm run build:analyze && tsc && esbuild src/vellum-doc.ts --bundle --minify --sourcemap=external --outfile=vellum-doc.js",
-    "build:dev": "tsc && esbuild src/vellum-doc.ts --bundle --outfile=vellum-doc.js",
-    "build:watch": "tsc && esbuild src/vellum-doc.ts --bundle --watch --outfile=vellum-doc.js --servedir=./",
-    "build:analyze": "cem analyze --litelement",
+    "start": "npm run build:watch",
+    "build:prod": "npm run build:analyze && tsc && esbuild src/vellum-doc.ts --bundle --minify --sourcemap=external --outfile=vellum-doc.js --loader:.svg=text --loader:.css=text",
+    "build:dev": "tsc && esbuild src/vellum-doc.ts --bundle --outfile=vellum-doc.js --loader:.svg=text --loader:.css=text",
+    "build:watch": "tsc && esbuild src/vellum-doc.ts --bundle --watch --outfile=vellum-doc.js --servedir=./ --loader:.svg=text --loader:.css=text",
+    "build:analyze": "lit-analyzer src && cem analyze --litelement",
     "build:docs": "npm run build:dev && mkdir docs && cp vellum-doc.js index.html docs/",
     "prepublishOnly": "npm run build"
   },
@@ -29,18 +30,23 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "@sindresorhus/slugify": "^2.2.1",
+    "eslint": "^8.57.0",
     "lit": "^3.1.4"
   },
   "devDependencies": {
-    "@custom-elements-manifest/analyzer": "^0.10.2",
-    "@lion/ui": "^0.7.4",
-    "@typescript-eslint/eslint-plugin": "^7.7.1",
-    "@typescript-eslint/parser": "^7.7.1",
-    "esbuild": "^0.21.5",
+    "@custom-elements-manifest/analyzer": "^0.10.3",
+    "@lion/ui": "^0.7.5",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
+    "esbuild": "^0.23.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "lit-analyzer": "^2.0.3",
-    "prettier": "^3.3.2",
-    "rimraf": "^5.0.7",
-    "typescript": "~5.4.5"
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "stylelint": "^16.7.0",
+    "stylelint-config-standard": "^36.0.1",
+    "typescript": "~5.5.4"
   },
   "customElements": "custom-elements.json"
 }
