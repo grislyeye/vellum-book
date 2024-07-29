@@ -1,13 +1,6 @@
 const project = require('./package.json');
 const replaceLink = require('markdown-it-replace-link');
 const path = require("path");
-const linkPreviewPlugin = require("./lib/link-preview-md-plugin.js");
-
-function byIndex(left, right) {
-  const a = left.data.index ? Number.parseInt(left.data.index) : 0;
-  const b = right.data.index ? Number.parseInt(right.data.index) : 0;
-  return a - b;
-}
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
@@ -51,3 +44,24 @@ module.exports = function (eleventyConfig) {
       .use(linkPreviewPlugin);
   });
 };
+
+function byIndex(left, right) {
+  const a = left.data.index ? Number.parseInt(left.data.index) : 0;
+  const b = right.data.index ? Number.parseInt(right.data.index) : 0;
+  return a - b;
+}
+
+const proxy = (tokens, idx, options, env, self) => self.renderToken(tokens, idx, options);
+
+function linkPreviewPlugin(md) {
+  md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
+    const defaultListItemOpenRenderer = md.renderer.rules.list_item_open || proxy;
+    return `<link-preview>${defaultListItemOpenRenderer(tokens, idx, options, env, self)}`;
+  };
+  md.renderer.rules.link_close = function(tokens, idx, options, env, self) {
+    const defaultListItemCloseRenderer = md.renderer.rules.list_item_close || proxy;
+    return `${defaultListItemCloseRenderer(tokens, idx, options, env, self)}</link-preview>`;
+  };
+}
+
+module.exports = linkPreviewPlugin;
