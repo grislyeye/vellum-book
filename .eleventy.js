@@ -1,13 +1,9 @@
-const project = require('./package.json');
 const replaceLink = require('markdown-it-replace-link');
 const path = require("path");
+const cheerio = require('cheerio');
 const slugify = require('slugify')
 
-function byIndex(left, right) {
-  const a = left.data.index ? Number.parseInt(left.data.index) : 0;
-  const b = right.data.index ? Number.parseInt(right.data.index) : 0;
-  return a - b;
-}
+const project = require('./package.json');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
@@ -50,7 +46,23 @@ module.exports = function (eleventyConfig) {
       })
       .use(automaticallyGenerateHeadingIds);
   });
+
+  eleventyConfig.addTransform("link-preview", function (content) {
+    if ((this.page.outputPath || "").endsWith(".html")) {
+      const $ = cheerio.load(content)
+      $('a[href^="#"]').wrap('<link-preview></link-preview>');
+      return $.html()
+    }
+
+    return content;
+	});
 };
+
+function byIndex(left, right) {
+  const a = left.data.index ? Number.parseInt(left.data.index) : 0;
+  const b = right.data.index ? Number.parseInt(right.data.index) : 0;
+  return a - b;
+}
 
 function automaticallyGenerateHeadingIds(md) {
   const defaultRender = md.renderer.rules.heading_open || function (tokens, idx, options, env, self) {
