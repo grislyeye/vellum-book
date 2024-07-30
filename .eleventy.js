@@ -1,6 +1,8 @@
-const project = require('./package.json');
 const replaceLink = require('markdown-it-replace-link');
 const path = require("path");
+const cheerio = require('cheerio');
+
+const project = require('./package.json');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
@@ -41,8 +43,17 @@ module.exports = function (eleventyConfig) {
           return link;
         }
       })
-      .use(linkPreviewPlugin);
   });
+
+  eleventyConfig.addTransform("link-preview", function (content) {
+    if ((this.page.outputPath || "").endsWith(".html")) {
+      const $ = cheerio.load(content)
+      $('a[href^="#"]').wrap('<link-preview></link-preview>');
+      return $.html()
+    }
+
+    return content;
+	});
 };
 
 function byIndex(left, right) {
@@ -50,18 +61,3 @@ function byIndex(left, right) {
   const b = right.data.index ? Number.parseInt(right.data.index) : 0;
   return a - b;
 }
-
-const proxy = (tokens, idx, options, env, self) => self.renderToken(tokens, idx, options);
-
-function linkPreviewPlugin(md) {
-  md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
-    const defaultListItemOpenRenderer = md.renderer.rules.list_item_open || proxy;
-    return `<link-preview>${defaultListItemOpenRenderer(tokens, idx, options, env, self)}`;
-  };
-  md.renderer.rules.link_close = function(tokens, idx, options, env, self) {
-    const defaultListItemCloseRenderer = md.renderer.rules.list_item_close || proxy;
-    return `${defaultListItemCloseRenderer(tokens, idx, options, env, self)}</link-preview>`;
-  };
-}
-
-module.exports = linkPreviewPlugin;
