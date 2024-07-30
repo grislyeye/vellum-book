@@ -1,7 +1,7 @@
 const project = require('./package.json');
 const replaceLink = require('markdown-it-replace-link');
 const path = require("path");
-// const linkPreviewPlugin = require("./lib/link-preview-md-plugin.js");
+const slugify = require('slugify')
 
 function byIndex(left, right) {
   const a = left.data.index ? Number.parseInt(left.data.index) : 0;
@@ -48,6 +48,20 @@ module.exports = function (eleventyConfig) {
           return link;
         }
       })
-      // .use(linkPreviewPlugin);
+      .use(automaticallyGenerateHeadingIds);
   });
 };
+
+function automaticallyGenerateHeadingIds(md) {
+  const defaultRender = md.renderer.rules.heading_open || function (tokens, idx, options, env, self) {
+    return self.renderToken(tokens, idx, options);
+  };
+
+  md.renderer.rules.heading_open = function (tokens, idx, opts, env, self) {
+    const heading = tokens[idx]
+    const content = tokens[idx+1]
+    const id = slugify(content.content).toLowerCase()
+    heading.attrSet('id', id)
+    return defaultRender(tokens, idx, opts, env, self)
+  };
+}
