@@ -18,7 +18,7 @@ module.exports = function (eleventyConfig) {
     {
       'node_modules/@lit': 'vendor/@lit',
       'node_modules/vellum-doc': 'vendor/vellum-doc',
-      'node_modules/link-preview': 'vendor/link-preview',
+      'node_modules/@grislyeye/link-preview': 'vendor/link-preview',
       'node_modules/magick.css': 'vendor/magick.css',
       'node_modules/normalize.css': 'vendor/normalize.css'
     }
