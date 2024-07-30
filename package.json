@@ -10,7 +10,7 @@
     "test": "htmlhint _site/**/*.html && markdownlint *.md sections/** && stylelint 'assets/styles/**/*.css'"
   },
   "dependencies": {
-    "@grislyeye/link-preview": "^0.0.0",
+    "@grislyeye/link-preview": "^0.0.1",
     "vellum-doc": "^0.10.0"
   },
   "devDependencies": {
