@@ -3,6 +3,7 @@ index: 1
 permalink: false
 tags: pages
 ---
+
 # Vellum Book
 
 A template project for publishing rich web documents using plain markdown. Very much a work-in-progress at this time, use with caution.
