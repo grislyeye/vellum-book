@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "@grislyeye/link-preview": "^0.0.2",
+    "magick.css": "^1.0.6",
+    "normalize.css": "^8.0.1",
     "vellum-doc": "^0.10.0"
   },
   "devDependencies": {
@@ -23,10 +25,8 @@
     "cheerio": "^1.0.0-rc.12",
     "gh-pages": "^6.1.1",
     "htmlhint": "^1.1.4",
-    "magick.css": "^1.0.6",
     "markdown-it-replace-link": "^1.2.1",
     "markdownlint-cli": "^0.41.0",
-    "normalize.css": "^8.0.1",
     "rimraf": "^6.0.1",
     "stylelint": "^16.8.1",
     "stylelint-config-standard": "^36.0.1"
