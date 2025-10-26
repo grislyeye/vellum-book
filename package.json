@@ -17,7 +17,7 @@
     "test": "npm run lint && htmlhint _site/**/*.html"
   },
   "dependencies": {
-    "@grislyeye/link-preview": "^0.0.2",
+    "@grislyeye/link-preview": "^0.0.3",
     "magick.css": "^1.0.6",
     "normalize.css": "^8.0.1",
     "vellum-doc": "^0.10.1"
