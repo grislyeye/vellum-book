@@ -7,15 +7,14 @@ A template project for publishing rich web documents using plain markdown. Very 
 
 Features:
 
-- Write everything in plain markdown files
+- Write everything in plain markdown
 - Rich document view with [`<vellum-doc>`](https://github.com/grislyeye/vellum-doc)
-- Tooltip previews for local links with [`<link-preview>`](https://github.com/rg-wood/link-preview)
-- Smartly converts links between markdown files into fragment links (e.g. [Chapter 1](sections/chapter-1/chapter-1.md))
-- Beautifully themed with [magick.css](https://css.winterveil.net/) by default
+- Beautifully themed with [magick.css](https://css.winterveil.net/)
+- Check spelling and grammar of pull requests
 
 ## Chapter 1
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed plane dicit quod intellegit. Si mala non sunt, iacet omnis ratio Peripateticorum. Nec vero alia sunt quaerenda contra Carneadeam illam sententiam. Respondent extrema primis, media utrisque, omnia omnibus. Duo Reges: constructio interrete. Cur post Tarentum ad Archytam? [Tamen a proposito, inquam, aberramus.](http://loripsum.net/) Videmus igitur ut conquiescere ne infantes quidem possint. `Utram tandem linguam nescio?` Tibi hoc incredibile, quod beatissimum. An dolor longissimus quisque miserrimus, voluptatem non optabiliorem diuturnitas facit? _Quid autem habent admirationis, cum prope accesseris?_
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed plane dicit quod intellegit. Si mala non sunt, iacet omnis ratio Peripateticorum. Nec vero alia sunt quaerenda contra Carneadeam illam sententiam. Respondent extrema primis, media utrisque, omnia omnibus. Duo Reges: constructio interrete. Cur post Tarentum ad Archytam? Tamen a proposito, inquam, aberramus. Videmus igitur ut conquiescere ne infantes quidem possint. `Utram tandem linguam nescio?` Tibi hoc incredibile, quod beatissimum. An dolor longissimus quisque miserrimus, voluptatem non optabiliorem diuturnitas facit? _Quid autem habent admirationis, cum prope accesseris?_
 
 ### Section 1
 
