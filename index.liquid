@@ -3,51 +3,31 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
 
-    <title>{{ site.title }}</title>
+    <title>{{ project.document.title }}</title>
 
-    <link href="vendor/normalize.css/normalize.css" rel="stylesheet" />
     <link href="vendor/magick.css/magick.css" rel="stylesheet" />
     <link href="assets/styles/main.css" rel="stylesheet" />
 
     <script type="module">
-      import './vendor/link-preview/link-preview.js'
-      import './vendor/vellum-doc/vellum-doc.js'
-    </script>
-
-    <script type="importmap">
-      {
-        "imports": {
-          "lit": "/vendor/@lit/index.js",
-          "lit/": "/vendor/@lit/"
-        }
-      }
+      import "./vendor/vellum-doc/vellum-doc.js";
     </script>
   </head>
 
   <body>
+    <main>
+      <vellum-doc anchors>
+        <section id="document">
+          {{ content }}
 
-    <vellum-doc anchors>
-      <main>
-        <article id="document" class="content">
-
-          {%- for page in collections.index -%}
-
-            <section>
-            {{ page.content }}
-            </section>
-
-          {%- endfor -%}
-
-        </article>
-      </main>
-
-      <footer>
-        <p>{{ site.title }} {{ project.version }} &copy; 2024 <a href="{{ project.author.url }}">{{ project.author.name }}</a></p>
-      </footer>
-    </vellum-doc>
-
+          <footer>
+            <p>{{ project.document.title }} {{ project.version }} &copy; 2024
+              <a href="{{ project.author.url }}">{{ project.author.name }}</a>
+            </p>
+          </footer>
+        </section>
+      </vellum-doc>
+    </main>
   </body>
-
 </html>
