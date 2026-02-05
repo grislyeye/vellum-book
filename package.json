@@ -47,7 +47,7 @@
       "patterns": [
         "**/*"
       ],
-      "extensions": "md,html,css,liquid",
+      "extensions": "md,html,css,liquid,json",
       "ignore": [
         "node_module",
         "dist"
@@ -55,6 +55,6 @@
     }
   },
   "document": {
-    "title": "Book Title"
+    "title": "Book Titles"
   }
 }
