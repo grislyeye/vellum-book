@@ -1,6 +1,6 @@
 const fs = require("fs");
 const { marked } = require("marked");
-const markedFootnote = require("marked-footnote");
+const markedFootnote = require("marked-magickcss-sidenote");
 const package = JSON.parse(fs.readFileSync("package.json", "utf8"));
 const { Liquid } = require("liquidjs");
 const engine = new Liquid();
