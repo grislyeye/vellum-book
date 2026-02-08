@@ -5,12 +5,9 @@ A template project for publishing rich web documents using plain markdown. Very 
 **[Demo](https://grislyeye.github.io/vellum-book/)** |
 **[Roadmap](https://github.com/grislyeye/vellum-book/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)**
 
-Features:
+Features:[^1]
 
-> [!NOTE]
-> Includes support for GFM alerts.
-
-- Write everything in plain markdown [^1]
+- Write everything in plain markdown
 - Rich document view with [`<vellum-doc>`](https://github.com/grislyeye/vellum-doc)
 - Beautifully themed with [magick.css](https://css.winterveil.net/)
 - Check spelling and grammar of pull requests
