@@ -7,6 +7,9 @@ A template project for publishing rich web documents using plain markdown. Very 
 
 Features:
 
+> [!NOTE]
+> Includes support for GFM alerts.
+
 - Write everything in plain markdown [^1]
 - Rich document view with [`<vellum-doc>`](https://github.com/grislyeye/vellum-doc)
 - Beautifully themed with [magick.css](https://css.winterveil.net/)

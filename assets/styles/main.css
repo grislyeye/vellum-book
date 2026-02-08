@@ -83,3 +83,7 @@ vellum-doc::part(index-h4) {
   border-top: 1px solid;
   font-size: small;
 }
+
+.alert {
+  float: right;
+}
