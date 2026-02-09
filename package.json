@@ -1,6 +1,7 @@
 {
   "name": "vellum-book",
   "version": "0.4.2",
+  "type": "module",
   "author": {
     "name": "Your Name",
     "email": "you@example.com",
