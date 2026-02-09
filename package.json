@@ -1,6 +1,6 @@
 {
   "name": "vellum-book",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "author": {
     "name": "Your Name",
     "email": "you@example.com",
@@ -56,6 +56,6 @@
     }
   },
   "document": {
-    "title": "Book Titles"
+    "title": "Book Title"
   }
 }
