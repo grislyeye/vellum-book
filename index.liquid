@@ -19,7 +19,8 @@
     <main>
       <vellum-doc anchors>
         <section id="document">
-          {{ content | safe }}
+          {% capture document %}{% render "README.md" %}{% endcapture %}
+          {{ document | markdown | safe }}
 
           <footer>
             <p>

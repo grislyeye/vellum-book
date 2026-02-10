@@ -1,4 +1,3 @@
-import fs from "fs";
 import { marked } from "marked";
 import markedFootnote from "marked-magickcss-sidenote";
 import project from "./package.json" with { type: "json" };
@@ -14,11 +13,9 @@ marked.use({
   gfm: true,
 });
 
-const markdown = fs.readFileSync("README.md", "utf8");
-const html = marked.use(markedFootnote()).parse(markdown);
+const parser = marked.use(markedFootnote());
 
-engine.registerFilter("safe", (html) => purify.sanitize(html));
+engine.registerFilter("markdown", parser.parse);
+engine.registerFilter("safe", purify.sanitize);
 
-engine
-  .renderFile("index.liquid", { content: html, project: project })
-  .then(console.log);
+engine.renderFile("index.liquid", { project: project }).then(console.log);
