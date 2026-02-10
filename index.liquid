@@ -16,8 +16,8 @@
   </head>
 
   <body>
-    <main>
-      <vellum-doc anchors>
+    <vellum-doc anchors>
+      <main>
         <section id="document">
           {% capture document %}{% render "README.md" %}{% endcapture %}
           {{ document | markdown | safe }}
@@ -30,7 +30,7 @@
             </p>
           </footer>
         </section>
-      </vellum-doc>
-    </main>
+      </main>
+    </vellum-doc>
   </body>
 </html>
