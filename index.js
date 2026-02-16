@@ -1,5 +1,6 @@
 import { marked } from "marked";
 import markedFootnote from "marked-magickcss-sidenote";
+import { gfmHeadingId } from "marked-gfm-heading-id";
 import project from "./package.json" with { type: "json" };
 import { Liquid } from "liquidjs";
 import { JSDOM } from "jsdom";
@@ -13,7 +14,7 @@ marked.use({
   gfm: true,
 });
 
-const parser = marked.use(markedFootnote());
+const parser = marked.use(markedFootnote()).use(gfmHeadingId());
 
 engine.registerFilter("markdown", parser.parse);
 engine.registerFilter("safe", purify.sanitize);
