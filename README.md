@@ -10,7 +10,7 @@ Features:[^1]
 - Write everything in plain markdown
 - Rich document view with [`<vellum-doc>`](https://github.com/grislyeye/vellum-doc)
 - Beautifully themed with [magick.css](https://css.winterveil.net/)
-- Check spelling and grammar of pull requests
+- Check pull request spelling and grammar
 
 ## Chapter 1
 
