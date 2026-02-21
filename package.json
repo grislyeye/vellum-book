@@ -4,8 +4,8 @@
   "type": "module",
   "author": {
     "name": "Your Name",
-    "email": "you@example.com",
-    "url": "https://example.com/"
+    "email": "you@example.org",
+    "url": "https://example.org/"
   },
   "dependencies": {
     "@grislyeye/link-preview": "^0.0.3",
