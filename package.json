@@ -7,6 +7,9 @@
     "email": "you@example.com",
     "url": "https://example.com/"
   },
+  "engines" : {
+    "node" : ">=25.0.0"
+  },
   "dependencies": {
     "@grislyeye/link-preview": "^0.0.3",
     "liquidjs": "^10.24.0",
