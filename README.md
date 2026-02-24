@@ -173,9 +173,8 @@ The moderator (or **mod**) is responsible for running the game. In particular, t
 
 Early in the first session, the mod should juggle two responsibilities:
 
-• Follow the protagonists around, and learn what they’re all about.
-
-• Give the players a sense of what the world is like, and how it operates.
+- Follow the protagonists around, and learn what they’re all about.
+- Give the players a sense of what the world is like, and how it operates.
 
 Astute players will realize that these two things can sometimes be at odds with one another. The way you navigate this combination of responsibilities is by honouring your [agendas](#agendas) and your [principles](#principles).
 
