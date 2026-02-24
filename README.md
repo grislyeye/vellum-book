@@ -64,7 +64,7 @@ All protagonists in **GODWROT** are broken in some way. **Flaws**[^2] represent 
 - Bumbling
 - Cowardly
 - Devious
-- Drunk
+- Drunkard
 - Fanatical
 - Greedy
 - Gruff
@@ -260,4 +260,4 @@ The reactions are:
 
 [^1]: With thanks to Morgan and Kat Rebelo for their conscientious playtesting and generous feedback.
 
-[^2]: You can come up with your own flaws, but some care should be taken. Unplayable flaws that discourage roleplaying (like Shy), or risk conflict between players (such as Kleptomania) should be avoided.
+[^2]: You can come up with your own flaws, but some care should be taken. Unplayable flaws that discourage roleplaying (like Shy), or risk conflict between players (such as Kleptomania) should be avoided. Flaws as temporary conditions (such as Drunk) should also be avoided.
