@@ -8,15 +8,15 @@
 
 In **GODWROT** you play as **protagonists**, individuals of dubious morality who are in over their heads. To create a protagonist in **GODWROT** follow these steps:
 
-1. Assign [attributes](#attributes).
+1. Assign [stats](#stats).
 2. Assign [trust](#trust) scores.
 3. Choose a [flaw](#flaws).
 4. Choose your [career move](#career-moves).
 5. Pick 2 [player moves](#player-moves).
 
-### Attributes
+### Stats
 
-Assign the following numbers to your **attributes**: +2, +1, +1, 0, -1. The 5 core attributes for **GODWROT** are:
+Assign the following numbers to your **stats**: +2, +1, +1, 0, -1. The 5 core stats for **GODWROT** are:
 
 - **Agility:** reflexive or graceful.
 - **Cunning**: inquisitive or exploratory.
@@ -50,11 +50,11 @@ The next stage of creating protagonists is to pick 2 **player moves**. When a pl
 
 • You have [some passive special power that has a constant effect].
 
-• You have a [thing]. When applicable, it adds +1 to [attribute] and [attribute].
+• You have a [thing]. When applicable, it adds +1 to [stat] and [stat].
 
 • When you do [speciality], mark XP.
 
-• Add +1 to [attribute].
+• Add +1 to [stat].
 
 ### Flaws
 
@@ -88,7 +88,7 @@ At some point, the mod will determine that something has triggered a [move](#bas
 
 ### Mea Culpa
 
-When you succeed on a [move](#basic-moves) related to your [flaw](#flaw) you can choose to take a **mea culpa** instead. When you do so, you snatch defeat from the jaws of victory, allowing your flaw to overcome your virtue.
+When you succeed on a [move](#basic-moves) related to your [flaw](#flaws) you can choose to take a **mea culpa** instead. When you do so, you snatch defeat from the jaws of victory, allowing your flaw to overcome your virtue.
 
 Rules-wise, a mea culpa is something of a hard bargain: you decide to fail a roll now so that you can succeed on another roll later. They are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**.
 
@@ -117,7 +117,7 @@ You either do or do not hold luck. It doesn't stack and once you've used it you 
 
 #### Taking Action
 
-When you **take an action that risks failure or opposition**, the mod tells you which of your [attributes](#attributes) is relevant and add that you roll.
+When you **take an action that risks failure or opposition**, the mod tells you which of your [stats](#stats) is relevant and add that you roll.
 
 - On a 10+, you succeed at your goal. As appropriate, the mod might award you: [resource points](#resource-points), [harm](#harm) dealt or a [bonus to carry forward](#bonus-to-carry-forward). If the **action is related to your flaw** you can take a [mea culpa](#mea-culpa) instead and hold [luck](#luck).
 - On a 7-9, the mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the mod might award you resource points, harm dealt, or a bonus to carry forward).
@@ -217,7 +217,7 @@ When you **run the game**:
 When you **speak**:
 
 - Address the protagonists, not the players.
-- Make your [reaction](#reaction), but never speak its name.
+- Make your [reaction](#reactions), but never speak its name.
 - Ask provocative questions and build on the answers.
 - Sometimes, reflect a question back upon the players.
 
