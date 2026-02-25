@@ -23,7 +23,7 @@
     "gh-pages": "^6.3.0",
     "htmlhint": "^1.9.1",
     "jsdom": "^28.1.0",
-    "linkinator": "^7.5.3",
+    "linkinator": "^7.6.0",
     "liquidjs": "^10.24.0",
     "marked": "^17.0.3",
     "marked-gfm-heading-id": "^4.1.3",
