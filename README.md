@@ -105,9 +105,9 @@ _Gregori's player describes him swinging hard and missing, falling off balance. 
 
 _Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend a fate point, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere._
 
-### Basic Moves
+## Basic Moves
 
-#### Take Action
+### Take Action
 
 When you **attempt to do something risky or uncertain**, roll a stat. The mod lets you know which of your [stats](#stats) you roll with. **On a 10+**, you do what you set out to do. The mod may offer a [bonus](#bonuses). **On a 7–9**, you stumble, hesitate, or flinch: the mod will offer you a worse outcome, hard bargain or ugly choice.
 
