@@ -40,7 +40,7 @@ All protagonists in **GODWROT** are broken in some way. **Flaws**[^2] represent 
 - Treacherous
 - Wicked
 
-#### Career Moves
+### Career Moves
 
 A **career move** determines what your protagonist did before they were drawn into dire events. Career moves follow this format:
 
@@ -67,15 +67,15 @@ _**Halfling Herbalist:** When you **do something related to your background as a
 
 The game is a **conversation**. Somebody says something, someone else replies, and maybe someone else chimes in. Players talk about the fiction—the world of the characters and the things that happen around them. As they play, the rules will chime in, too. Players take turns in the natural flow of the conversation, which always has some back-and-forth. The mod says something, the players respond. The players ask questions or make statements, the mod tells them what happens next.
 
-#### Moves
+### Moves
 
 Every so often, when a player describes their protagonist doing, it triggers a **move**. Moves are rules that tell you when they trigger and what effect they have. A move depends on a fictional action and always has some fictional effect. Follow the moves' description to see what you need to do and what happens.
 
-#### Rolling
+### Rolling
 
 Some moves will tell you to make a **roll**. Roll 2d6 and add any modifiers and/or stats that apply. A roll fails on a 6-. Failure means the mod makes a [hard move](#mod-moves).
 
-#### Bonuses
+### Bonuses
 
 Some [moves](#moves)...
 
@@ -85,19 +85,12 @@ Some [moves](#moves)...
 
 …Give you “hold.” Hold is currency that allows you to make some choices later on by spending the hold as the move describes. Hold is always saved up for the move that generated it; you can’t spend your hold from defend on trap expert or vice versa, for example.
 
-#### Harm
+### Harm
 
 **Harm** is a measure of how much physical and mental stress a character has taken. When you're asked to deal harm, reduce the character's harm by -1 or -2, depending on the severity of the fictional damage. An average NPC has 2 harm, while stronger characters can have 3 to 4 harm.
 
 When a character looses all harm they are **taken out** and leave the game somehow, perhaps simply dying or perhaps running off into the darkness in abject fear, or something else altogether. For protagonists, the player gets to decide what happens to their character. For NPCs, the mod decides what happens, usually something short for average NPCs.
 
-### Rolling
-
-At some point, the mod will determine that something has triggered a [move](#basic-moves) and requires a roll. The player rolls two six-sided dice and adds whatever modifiers apply to the sum. The effects depend on the move in question.
-
-- When a player succeeds on a move (rolls 10+) , their success should be interesting and introduce new opportunities for them.
-- When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions.
-- When a player fails on a basic move (6 or less), the mod should respond with a [hard move](#mod-moves) that fundamentally changes the situation and demands new kinds of action.
 
 ### Mea Culpa
 
@@ -130,7 +123,7 @@ You either do or do not hold luck. It doesn't stack and once you've used it you 
 
 #### Take Action
 
-When you **attempt to do something risky or uncertain**, roll a stat. The mod lets you know which of your [stats](#stats) you roll with. **On a 10+**, you do what you set out to do. The mod may offer a +1 forward, +1 ongoing or hold. **On a 7–9**, you stumble, hesitate, or flinch: the mod will offer you a worse outcome, hard bargain or ugly choice.
+When you **attempt to do something risky or uncertain**, roll a stat. The mod lets you know which of your [stats](#stats) you roll with. **On a 10+**, you do what you set out to do. The mod may offer a [bonus](#bonuses). **On a 7–9**, you stumble, hesitate, or flinch: the mod will offer you a worse outcome, hard bargain or ugly choice.
 
 ## Moderation
 
