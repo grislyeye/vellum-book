@@ -168,7 +168,7 @@ Mods can make their own moves:
 
 A **soft move** is one without immediate, irrevocable consequences. That usually means it’s something not all that bad, like revealing that there’s more treasure if they can just find a way past the golem (offer an opportunity with cost). It can also mean that it’s something bad, but they have time to avoid it, like having the goblin archers loose their arrows (announce future badness) with a chance for them to dodge out of danger.
 
-**Hard move**, on the other hand, have immediate consequences. Dealing damage is almost always a hard move, since it means a loss of HP that won’t be recovered without some action from the players.
+**Hard move**, on the other hand, have immediate consequences. Dealing damage is almost always a hard move, since it means a loss of [harm](#harm) that won’t be recovered without some action from the players.
 
 Generally when the players are just looking at you to find out what happens you make a soft move. Otherwise you make a hard move.
 
