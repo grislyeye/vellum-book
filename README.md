@@ -44,13 +44,13 @@ All protagonists in **GODWROT** are broken in some way. **Flaws**[^2] represent 
 
 A **career move** determines what your protagonist did before they were drawn into dire events. Career moves follow this format:
 
-**[Background] [Career]:** When **you do something related to your background or career**, add +1.
+**[Background] [Career]:** When **you make a Take Action move related to your background or career**, add +1.
 
 Your background indicates the dubious circumstances of your birth. For example, you could be a humble halfling or a street urchin. A career is some kind of profession suitable for a protagonist, such as burglar or itinerant monk.
 
 For example:
 
-_**Halfling Herbalist:** When you **do something related to your background as a halfling or your career as a herbalist**, add +1._
+_**Halfling Herbalist:** When **you make a Take Action move related to your background as a halfling or your career as a herbalist**, add +1._
 
 ### Protagonist Moves
 
@@ -109,7 +109,7 @@ _Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but
 
 ### Take Action
 
-When you **attempt to do something risky or uncertain**, roll a stat. The mod lets you know which of your [stats](#stats) you roll with. **On a 10+**, you do what you set out to do. The mod may offer a [bonus](#bonuses). **On a 7–9**, you stumble, hesitate, or flinch: the mod will offer you a worse outcome, hard bargain or ugly choice.
+When you **attempt to do something risky or uncertain**, roll a stat. The mod lets you know which of your [stats](#stats) you roll with. **On a 10+**, you do what you set out to do. The mod may offer a [bonus](#bonuses). **On a 7–9**, you stumble, hesitate, or flinch: the mod will offer you a worse outcome, hard bargain or ugly choice. If your action is related to your [career or background](#career-moves) you can take a +1.
 
 ## Moderation
 
