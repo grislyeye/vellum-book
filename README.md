@@ -93,6 +93,11 @@ When a character looses all harm they are **taken out** and leave the game someh
 
 ## Basic Moves
 
+The basic moves you can make are:
+
+- When you succeed on a move related to your [flaw](#flaws) make the **[Fuck Up](#fuck-up)** move.
+- When you attempt to do something risky or uncertain make the **[Take Action](#take-action)** move.
+
 ### Fuck Up
 
 When you **succeed on a [move](#basic-moves) related to your [flaw](#flaws)** you can choose to fail and hold 1 instead. When you do so, you snatch defeat from the jaws of victory, allowing your flaw to overcome your virtue. Devise a suitable [hard move](#mod-moves) with the mod.
