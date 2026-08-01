@@ -26,7 +26,7 @@ Assign the following numbers to each of your **stats**: +2, +1, +1, 0, -1. The s
 
 ### Flaws
 
-All protagonists in **GODWROT** are broken in some way. **Flaws**[^2] represent this and determine when you can take [fate points](#fate-points). Choose a flaw from the list below and record it on your protagonist sheet:
+All protagonists in **GODWROT** are broken in some way. **Flaws**[^2] represent this and determine when you can taketh [Fuck Up move](#fuck-up). Choose a flaw from the list below and record it on your protagonist sheet:
 
 - Bolshy
 - Bumbling
@@ -91,25 +91,25 @@ Some [moves](#moves)...
 
 When a character looses all harm they are **taken out** and leave the game somehow, perhaps simply dying or perhaps running off into the darkness in abject fear, or something else altogether. For protagonists, the player gets to decide what happens to their character. For NPCs, the mod decides what happens, usually something short for average NPCs.
 
-### Fate points
+## Basic Moves
 
-When you succeed on a [move](#basic-moves) related to your [flaw](#flaws) you can choose to fail and take a **fate point**[^3] instead. When you do so, you snatch defeat from the jaws of victory, allowing your flaw to overcome your virtue. Devise a suitable [hard move](#mod-moves) with the mod.
+### Fuck Up
 
-Fate points can be spent to accidentally succeed on any failed roll as though you had rolled a 7-9. Describe how fortune intervenes and allows you to succeed despite your failings. As always, make it [grubby](#grubby).
+When you **succeed on a [move](#basic-moves) related to your [flaw](#flaws)** you can choose to fail and hold 1 instead. When you do so, you snatch defeat from the jaws of victory, allowing your flaw to overcome your virtue. Devise a suitable [hard move](#mod-moves) with the mod.
+
+Hold can be spent to accidentally succeed on any failed roll as though you had rolled a 7-9. Describe how fortune intervenes and allows you to succeed despite your failings. As always, make it [grubby](#grubby).[^3]
 
 For example:
 
-_Gregori succeeds on an attack move on a roll of 11. This move is related to his flaw, Reckless. He decides to fail the attack move and take a fate point instead._
+_Gregori succeeds on an attack move on a roll of 11. This move is related to his flaw, Reckless. He decides to fail the attack move and hold 1 instead._
 
 _Gregori's player describes him swinging hard and missing, falling off balance. The mod turns Gregori's move back on him, noting that his broadsword hits the wall instead and gets stuck. Gregori struggles to free it whilst his opponent closes in..._
 
-_Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend a fate point, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere._
-
-## Basic Moves
+_Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend 1 hold, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere._
 
 ### Take Action
 
-When you **attempt to do something risky or uncertain**, roll a stat. The mod lets you know which of your [stats](#stats) you roll with. **On a 10+**, you do what you set out to do. The mod may offer a [bonus](#bonuses). **On a 7–9**, you stumble, hesitate, or flinch: the mod will offer you a worse outcome, hard bargain or ugly choice. If your action is related to your [career or background](#career-moves) you can take a +1.
+When you **attempt to do something risky or uncertain**, roll a stat. The mod lets you know which of your [stats](#stats) you roll with. **On a 10+**, you do what you set out to do. The mod may offer a [bonus](#bonuses). **On a 7–9**, you stumble, hesitate, or flinch: the mod will offer you a worse outcome, hard bargain or ugly choice. If your action is related to your [career or background](#career-moves) you can take a +1.
 
 ## Moderation
 
@@ -193,4 +193,4 @@ The mod moves are:
 
 [^2]: You can come up with your own flaws, but some care should be taken. Unplayable flaws that discourage roleplaying (like Shy), or risk conflict between players (such as Kleptomania) should be avoided. Flaws as temporary conditions (such as Drunk) should also be avoided.
 
-[^3]: Rules-wise, fate points are something of a hard bargain: you decide to fail a roll now so that you can succeed on another roll later. They are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of GODWROT.
+[^3]: The Fuck Up move presents something of a hard bargain: you decide to fail a roll now so that you can succeed on another roll later. They are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of GODWROT.
