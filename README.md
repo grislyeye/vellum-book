@@ -100,7 +100,7 @@ The basic moves you can make are:
 
 ### Fuck Up
 
-When you **succeed on a [move](#basic-moves) related to your [flaw](#flaws)** you can choose to fail and hold 1 instead. When you do so, you snatch defeat from the jaws of victory, allowing your flaw to overcome your virtue. Devise a suitable [hard move](#mod-moves) with the mod.
+When you **succeed on a move related to your [flaw](#flaws)** you can choose to fail and hold 1 instead. When you do so, you snatch defeat from the jaws of victory, allowing your flaw to overcome your virtue. Devise a suitable [hard move](#mod-moves) with the mod.
 
 Hold can be spent to accidentally succeed on any failed roll as though you had rolled a 7-9. Describe how fortune intervenes and allows you to succeed despite your failings. As always, make it [grubby](#grubby).[^3]
 
