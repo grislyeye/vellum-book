@@ -164,7 +164,7 @@ Mods can make their own moves:
 
 - When everyone looks to you to find out what happens make a soft move.
 - When the players give you a golden opportunity make a soft move.
-- When they roll a 6- make a had move.
+- When they roll a 6- make a hard move.
 
 A **soft move** is one without immediate, irrevocable consequences. That usually means it’s something not all that bad, like revealing that there’s more treasure if they can just find a way past the golem (offer an opportunity with cost). It can also mean that it’s something bad, but they have time to avoid it, like having the goblin archers loose their arrows (announce future badness) with a chance for them to dodge out of danger.
 
